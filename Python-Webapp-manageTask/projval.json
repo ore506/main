@@ -1,0 +1,30 @@
+{ 
+  "file": {
+    "fileTypes": [
+      ".xlsx",
+      ".xls",
+      ".csv"
+    ]
+  },
+  "dataLoadingStatusOptions": ["Data is loaded!", "Please wait. Data is being validated!"],
+  "columns": [
+      "Sequence",
+      "Name",
+      "Category",
+      "Calc"
+    ],
+  "people": [
+      {
+          "from": "Nebraska",
+          "name": "Scott",
+          "website": "stackabuse.com"
+      }
+  ],
+  "columnsapp": {
+    "Sequence": "1",
+    "Name": "Nebraska",
+    "Category": "2",
+    "Calc": "@Category*@Sequence*@Sequence"
+}
+  
+}
